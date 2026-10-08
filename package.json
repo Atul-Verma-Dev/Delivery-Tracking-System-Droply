@@ -1,0 +1,11 @@
+{
+  "name": "delivery-tracking-system-droply",
+  "version": "1.0.0",
+  "description": "Delivery Tracking System - Droply (Workshop Project)",
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  }
+}
+
